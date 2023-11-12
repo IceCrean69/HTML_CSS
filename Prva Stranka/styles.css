@@ -12,21 +12,25 @@ body{
 }
 
 .main-navbar {
+    
     display: flex;
     align-items: center; 
-    padding: 10px; 
     background-color: white;
+    padding-right: 200px;
+    
+}
+.main-navbar img{
+    margin-left: 400px;
 }
 
 .main-navbar a {
-    margin-right: 20px;
+    margin-right: 40px;
     
 }
 
 .main-navbar li{
     color: black;
-    font-size: 20px;
-    
+    font-size: 15px;    
     transition: 0.3s;
 }
 .main-navbar li:hover{
@@ -34,7 +38,7 @@ body{
     
 }
 
-ul {
+ul{
     display: flex;
     list-style: none; 
     padding: 0;
@@ -46,12 +50,13 @@ ul {
 }
 
 .main-page{
-    width: 100%;
-    margin-right: auto;
-    margin-left: auto;
+    
+    margin-left: 400px;
+    margin-right: 200px;
     box-sizing: border-box;
-    padding-right: 150px;
-    padding-left: 150px;
+    font-size: 120%;
+    
+    
 }
 .main-page h1{
     color: white !important;
@@ -118,7 +123,20 @@ ul {
 .container-one h3{
     color:black;
 }
+.vizia-text h3{
+    text-align: left;
+    margin-left: 100px;
+    font-size: 45px;
+}
+
+.vizia-text p{
+    width: 800px;
+    text-align: left;
+    margin-left: 100px;
+    margin-right: 50px;
+}
 .boxes{
+    margin-top: 50px;
     display: flex;
     flex-wrap:wrap;
     align-items: center;
@@ -184,4 +202,84 @@ ul {
     font-size: 90px;
     margin-bottom: -10px;
 }
+
+
+
+
+.container-labs{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    text-align: center;
+    gap: 20px;
+    
+}
+
+.labs{
+    font-size: 40px;
+    text-align: left;
+    margin-right: 100px;
+    margin-left: 150px;
+}
+.labs h4{
+    font-weight: 100;
+    font-size: 40px;
+    margin-bottom:0px;
+}
+
+.hybridLab{
+    width: 250px;
+    height: 250px;
+    border-radius: 8px;
+    background-color: white ;
+    text-align: left;
+    font-size: 110%;
+    padding-left: 12px;
+    
+}
+.hybridLab-text{
+    color: #566B8D;
+    font-size: 16px;
+    
+}
+.hybridLab:hover{
+    box-shadow: 0px 0px 28px -7px rgba(0,0,0,0.2);
+}
+
+
+.gamesLab{
+    width: 250px;
+    height: 250px;
+    border-radius: 8px;
+    background-color: white ;
+    text-align: left;
+    padding-left: 12px;
+}
+.gamesLab-text{
+    color: #566B8D;
+    font-size: 16px;
+    
+}
+.gamesLab:hover{
+    box-shadow: 0px 0px 28px -7px rgba(0,0,0,0.2);
+}
+
+
+.appsLab{
+    width: 250px;
+    height: 250px;
+    border-radius: 8px;
+    background-color: white ;
+    text-align: left;
+    padding-left: 12px;
+}
+.appsLab-text{
+    color: #566B8D;
+    font-size: 16px;
+    
+}
+.appsLab:hover{
+    box-shadow: 0px 0px 28px -7px rgba(0,0,0,0.2);
+}
+
 
