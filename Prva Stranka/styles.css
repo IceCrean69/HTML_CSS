@@ -2,6 +2,18 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.btn{
+font-weight: 600;
+font-size: 15px;
+color: #fff;
+background-color: #3597ff;
+padding: 16px 25px;
+border: none;
+border-radius: 8px;
+align-items: center;
+cursor: pointer;
+
+}
 
 .start {
     background-color: #3597FF;
@@ -17,6 +29,8 @@ body{
     align-items: center; 
     background-color: white;
     padding-right: 200px;
+    font-weight: 600;
+
     
 }
 .main-navbar img{
@@ -35,6 +49,7 @@ body{
 }
 .main-navbar li:hover{
     color: #3597FF;
+    cursor: pointer;
     
 }
 
@@ -132,8 +147,8 @@ ul{
 .vizia-text p{
     width: 800px;
     text-align: left;
-    margin-left: 100px;
-    margin-right: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 .boxes{
     margin-top: 50px;
@@ -154,7 +169,7 @@ ul{
     color:#7487A3
     
 }
-.BoldNumber1{
+.BoldNumber1, .BoldNumber2, .BoldNumber3,.BoldNumber4{
     margin-top: 25px;
     font-weight: 1000;
     font-size: 90px;
@@ -168,12 +183,6 @@ ul{
     border-radius: 5px;
     color: #5CC19A;
 }
-.BoldNumber2{
-    margin-top: 25px;
-    font-weight: 1000;
-    font-size: 90px;
-    margin-bottom: -10px;
-}
 
 .box3{
     width: 230px;
@@ -181,12 +190,6 @@ ul{
     background-color: #F8F3D7;
     border-radius: 5px;
     color: #DBCA68;
-}
-.BoldNumber3{
-    margin-top: 25px;
-    font-weight: 1000;
-    font-size: 90px;
-    margin-bottom: -10px;
 }
 
 .box4{
@@ -196,15 +199,9 @@ ul{
     border-radius: 5px;
     color: #B95E73;
 }
-.BoldNumber4{
-    margin-top: 25px;
-    font-weight: 1000;
-    font-size: 90px;
-    margin-bottom: -10px;
-}
 
 
-
+/* LABS*/
 
 .container-labs{
     display: flex;
@@ -212,14 +209,13 @@ ul{
     margin-top: 50px;
     text-align: center;
     gap: 20px;
-    
 }
-
 .labs{
     font-size: 40px;
     text-align: left;
     margin-right: 100px;
     margin-left: 150px;
+    
 }
 .labs h4{
     font-weight: 100;
@@ -227,14 +223,16 @@ ul{
     margin-bottom:0px;
 }
 
-.hybridLab{
+/* HYBRID LAB*/
+.hybridLab, .gamesLab, .appsLab{
     width: 250px;
     height: 250px;
     border-radius: 8px;
     background-color: white ;
     text-align: left;
-    font-size: 110%;
     padding-left: 12px;
+    transition: box-shadow 0.3s ease-in-out;
+    
     
 }
 .hybridLab-text{
@@ -245,16 +243,13 @@ ul{
 .hybridLab:hover{
     box-shadow: 0px 0px 28px -7px rgba(0,0,0,0.2);
 }
-
-
-.gamesLab{
-    width: 250px;
-    height: 250px;
-    border-radius: 8px;
-    background-color: white ;
-    text-align: left;
-    padding-left: 12px;
+.hybridLab:hover .gg-arrow-long-right{
+    color: #3597FF;
+    padding-left: 175px;
+    
 }
+
+/* GAMES LAB*/
 .gamesLab-text{
     color: #566B8D;
     font-size: 16px;
@@ -264,22 +259,35 @@ ul{
     box-shadow: 0px 0px 28px -7px rgba(0,0,0,0.2);
 }
 
-
-.appsLab{
-    width: 250px;
-    height: 250px;
-    border-radius: 8px;
-    background-color: white ;
-    text-align: left;
-    padding-left: 12px;
+.gamesLab:hover .gg-arrow-long-right{
+    color: #3597FF;
+    padding-left: 175px;
 }
+
+/* APPS LAB*/
 .appsLab-text{
     color: #566B8D;
     font-size: 16px;
     
 }
-.appsLab:hover{
-    box-shadow: 0px 0px 28px -7px rgba(0,0,0,0.2);
+.appsLab:hover {
+    box-shadow: 0px 0px 28px -7px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
 }
+
+.appsLab:hover .gg-arrow-long-right{
+    color: #3597FF;
+    padding-left: 175px;
+}
+
+.gg-arrow-long-right{
+    color: black;
+    transition: color 0.3s ease-in-out;
+    transition: padding-left 0.5s ease-in-out;       
+}
+
+
+
+
 
 
