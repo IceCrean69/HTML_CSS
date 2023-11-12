@@ -78,12 +78,10 @@ ul {
     margin-left: 150px;
     margin-right: 150px;
     margin-top: 50px;
-    
 
 }
 
-.why h2{
-    
+.why h2,h3{ 
     font-weight: 300;
 }
 
@@ -91,12 +89,99 @@ ul {
     font-weight: 1000;
 }
 
+.OpenLab-text{
+    color: #566B8D;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.row span{
+    font-size: 16px;
+    color: black;
+}
 .row{
     margin-top: 40px;
+    margin-left: 300px;
+    margin-right: 300px;
     display: flex;
     justify-content: space-evenly;
     text-align: left;
+    font-size: 80%;
+    color: #566B8D;
 }
-.row span{
-    font-size: 20px;
+
+.container-one{
+    display: flex;  
+    color: #566B8D;
 }
+
+.container-one h3{
+    color:black;
+}
+.boxes{
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    gap: 10px ;
+    text-align: right;
+    font-size: 20px;      
+    
+}
+.box1{
+    width: 230px;
+    height: 180px;
+    
+    background-color: #F1F7FD;
+    border-radius: 5px;
+    color:#7487A3
+    
+}
+.BoldNumber1{
+    margin-top: 25px;
+    font-weight: 1000;
+    font-size: 90px;
+    margin-bottom: -10px;
+}
+
+.box2{
+    width: 230px;
+    height: 180px;
+    background-color: #D7F8EB;
+    border-radius: 5px;
+    color: #5CC19A;
+}
+.BoldNumber2{
+    margin-top: 25px;
+    font-weight: 1000;
+    font-size: 90px;
+    margin-bottom: -10px;
+}
+
+.box3{
+    width: 230px;
+    height: 180px;
+    background-color: #F8F3D7;
+    border-radius: 5px;
+    color: #DBCA68;
+}
+.BoldNumber3{
+    margin-top: 25px;
+    font-weight: 1000;
+    font-size: 90px;
+    margin-bottom: -10px;
+}
+
+.box4{
+    width: 230px;
+    height: 180px;
+    background-color: #F8D7D7;
+    border-radius: 5px;
+    color: #B95E73;
+}
+.BoldNumber4{
+    margin-top: 25px;
+    font-weight: 1000;
+    font-size: 90px;
+    margin-bottom: -10px;
+}
+
