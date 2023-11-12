@@ -1,0 +1,102 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.start {
+    background-color: #3597FF;
+    margin: 0; 
+    height: 400px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.main-navbar {
+    display: flex;
+    align-items: center; 
+    padding: 10px; 
+    background-color: white;
+}
+
+.main-navbar a {
+    margin-right: 20px;
+    
+}
+
+.main-navbar li{
+    color: black;
+    font-size: 20px;
+    
+    transition: 0.3s;
+}
+.main-navbar li:hover{
+    color: #3597FF;
+    
+}
+
+ul {
+    display: flex;
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+    justify-content: space-evenly;
+    flex: 1;
+    
+    
+}
+
+.main-page{
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    box-sizing: border-box;
+    padding-right: 150px;
+    padding-left: 150px;
+}
+.main-page h1{
+    color: white !important;
+    margin-top: 60px;
+    width: 300px;
+    font-size: 20px;
+    font-weight: 200;
+    text-align: left;
+    
+}
+.main-page span{
+    font-weight: 800;
+    font-size: 25px;
+}
+.main-page p{
+    color: white;
+    width: 300px;
+}
+
+.why{
+    background-color: white !important;
+    box-sizing: border-box;
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 50px;
+    
+
+}
+
+.why h2{
+    
+    font-weight: 300;
+}
+
+.why span{
+    font-weight: 1000;
+}
+
+.row{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: left;
+}
+.row span{
+    font-size: 20px;
+}
