@@ -13,14 +13,14 @@ border-radius: 8px;
 align-items: center;
 cursor: pointer;
 
+
 }
 
 .start {
-    background-color: #3597FF;
-    margin: 0; 
-    height: 400px;
-    margin-left: -10px;
+    background-color: #3597FF; 
+    height: 440px;
     margin-right: -10px;
+    margin-left:-10px ;
 }
 
 .main-navbar {
@@ -34,35 +34,37 @@ cursor: pointer;
     
 }
 .main-navbar img{
-    margin-left: 400px;
+    padding-left: 400px;
 }
-
-.main-navbar a {
-    margin-right: 40px;
-    
-}
-
 .main-navbar li{
     color: black;
-    font-size: 15px;    
-    transition: 0.3s;
+    font-size: 12px;    
+    transition: color 0.3s;
+    
 }
 .main-navbar li:hover{
     color: #3597FF;
     cursor: pointer;
     
 }
-
+.navbar-links{
+    display: flex;
+    list-style: none; 
+    justify-content: space-evenly;
+    flex: 1; 
+    padding-right: 0px;
+}
 ul{
     display: flex;
     list-style: none; 
-    padding: 0;
-    margin: 0;
     justify-content: space-evenly;
-    flex: 1;
-    
+    flex: 1; 
+    padding-right: 125px;
+    padding-left: 125px;
     
 }
+
+
 
 .main-page{
     
@@ -75,20 +77,22 @@ ul{
 }
 .main-page h1{
     color: white !important;
-    margin-top: 60px;
-    width: 300px;
-    font-size: 20px;
-    font-weight: 200;
+    padding-top: 60px;
+    width: 500px;
+    font-size: 30px;
+    font-weight: 10;
     text-align: left;
     
 }
 .main-page span{
-    font-weight: 800;
+    font-weight:1000;
     font-size: 25px;
 }
 .main-page p{
     color: white;
-    width: 300px;
+    width: 500px;
+    font-size: 15px;
+    font-weight:500 ;
 }
 
 .why{
@@ -97,12 +101,13 @@ ul{
     text-align: center;
     margin-left: 150px;
     margin-right: 150px;
-    margin-top: 50px;
+    padding-top: 90px;
 
 }
 
 .why h2,h3{ 
-    font-weight: 300;
+    font-weight: 100;
+    font-size: 40px;
 }
 
 .why span{
@@ -111,8 +116,10 @@ ul{
 
 .OpenLab-text{
     color: #566B8D;
-    margin-left: 300px;
-    margin-right: 300px;
+    padding-left: 175px;
+    padding-right: 175px;
+    line-height: 1.25;
+    padding-bottom: 30px;
 }
 
 .row span{
@@ -140,7 +147,7 @@ ul{
 }
 .vizia-text h3{
     text-align: left;
-    margin-left: 100px;
+    padding-left: 100px;
     font-size: 45px;
 }
 
