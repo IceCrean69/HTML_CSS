@@ -12,26 +12,21 @@ border: none;
 border-radius: 8px;
 align-items: center;
 cursor: pointer;
-
-
 }
 
-.start {
+.start{
     background-color: #3597FF; 
     height: 440px;
     margin-right: -10px;
     margin-left:-10px ;
 }
 
-.main-navbar {
-    
+.main-navbar{   
     display: flex;
     align-items: center; 
     background-color: white;
     padding-right: 200px;
-    font-weight: 600;
-
-    
+    font-weight: 600;   
 }
 .main-navbar img{
     padding-left: 400px;
@@ -45,7 +40,6 @@ cursor: pointer;
 .main-navbar li:hover{
     color: #3597FF;
     cursor: pointer;
-    
 }
 .navbar-links{
     display: flex;
@@ -292,6 +286,120 @@ ul{
     transition: color 0.3s ease-in-out;
     transition: padding-left 0.5s ease-in-out;       
 }
+
+
+
+.container-lokalita h3{
+    text-align: center;
+}
+
+.container-skoly{
+    
+    display: flex !important;
+    justify-content: space-evenly;
+    margin: auto;
+    max-width:1420px ;
+    
+}
+.spse-text, .spsit-text{
+    display: flex;
+    justify-content: space-between;
+    align-items: last baseline;
+}
+.spse p, .spsit p{
+    display: flex !important;
+    font-size: 13px;
+    color: #566B8D;
+}
+.spse i, .spsit i{
+    margin-right: 10px;
+}
+.spse-text p, .spsit-text p{
+    max-width: 300px;
+    font-size: 18px;
+    font-weight: 800;
+    text-align: left;
+    color: black;
+}
+.spse-text a, .spsit-text a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    font-weight: 1000;
+    color: #3597FF;
+}
+
+.nazor{
+    padding-top: 150px;
+    background-color: #F3F9FF;
+    display: flex;
+    flex-direction: column;
+}
+.nazor span{
+    font-weight: 1000;
+    
+}
+.nazor h3{
+    text-align: left;
+    max-width: 395px;
+    max-height: 90px;
+    font-size: 35px;
+    background-color: #F3F9FF;
+    line-height: 0.2;
+    
+}
+.container-nazor{
+    box-sizing: border-box;
+    max-width: 900px;
+    margin-left: 300px;
+    text-align: left;
+}
+
+.hmove{
+    display: flex;
+    position:relative;
+    top: 0;        
+}
+.hslide{ 
+    width: 100%;
+    flex-shrink: 0; 
+}
+.hwrap{
+    overflow:hidden;
+    width: 500px; 
+    height: 500px;
+}
+
+
+@keyframes slideh {
+  0% { right: 0; } 
+  30% { right: 0; }
+  33% { right: 100%; } 
+  63% { right: 100%; }
+  66% { right: 0%; }
+  100% { right: 0; }
+}
+ 
+.hmove{ 
+    animation: slideh 15s ease-in-out 15s infinite; 
+}
+
+.student-id{
+    display: flex;
+    align-items: center;
+    justify-items: first baseline;
+    line-height: 0;
+}
+.student-id h5{
+    font-size: 16px;
+}
+.location, .author{
+    padding-left: 10px;
+}
+.gg-user{
+    size: 20px;
+}
+
+
 
 
 
