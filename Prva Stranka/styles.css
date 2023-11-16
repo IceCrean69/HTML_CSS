@@ -287,8 +287,6 @@ ul{
     transition: padding-left 0.5s ease-in-out;       
 }
 
-
-
 .container-lokalita h3{
     text-align: center;
 }
@@ -349,7 +347,8 @@ ul{
 }
 .container-nazor{
     box-sizing: border-box;
-    max-width: 900px;
+    max-width: 500px;
+    max-height: 800px;
     margin-left: 300px;
     text-align: left;
 }
@@ -366,7 +365,7 @@ ul{
 .hwrap{
     overflow:hidden;
     width: 500px; 
-    height: 500px;
+    height: fit-content;
 }
 
 
@@ -380,13 +379,13 @@ ul{
 }
  
 .hmove{ 
-    animation: slideh 15s ease-in-out 15s infinite; 
+    animation: slideh 5s ease-in-out 5s infinite; 
 }
 
 .student-id{
     display: flex;
     align-items: center;
-    justify-items: first baseline;
+    align-content: flex-end;
     line-height: 0;
 }
 .student-id h5{
@@ -398,7 +397,101 @@ ul{
 .gg-user{
     size: 20px;
 }
+.nav-btn{
+    display: flex;
+    justify-content: right;  
+    
+}
+.left{
+    font-weight: 600;
+    font-size: 15px;
+    color: #fff;
+    background-color: #3597ff;
+    padding: 12px 8px;
+    border: none;
+    border-radius: 8px;
+    align-items: center;
+    cursor: pointer;
+}
+.right{
+    margin-right: 50px;
+    font-weight: 600;
+    font-size: 15px;
+    color: #fff;
+    background-color: #3597ff;
+    padding: 12px 8px;
+    border: none;
+    border-radius: 8px;
+    align-items: center;
+    cursor: pointer;
+    rotate: 180deg;   
+}
 
+.container-join{
+    background-color: white;
+}
+
+.join-text{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+    line-height: 0.5;
+}
+.join-text h2{
+    font-weight: 100;
+    font-size: 30px;
+}
+.join-text span{
+    font-weight: 1000;
+    font-size: 30px;
+}
+
+.container-cards{
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-evenly;
+    margin: auto;
+    max-width:1320px ;
+    gap: 20px;
+    
+    
+}
+.cards{   
+    border-radius: 8px;
+    width: 300px;
+    height: 250px;
+    padding: 10px;
+    
+
+}
+.cards p{
+    color: #7487A3;
+}
+.cards h5{
+    font-size: 18px;
+}
+.cards:hover {
+    box-shadow: 0px 0px 28px -7px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+.cards i{
+    display: flex;
+    align-content: baseline;
+    font-size: 40px;
+    color: #3597FF;
+}
+
+.cards:hover .gg-arrow-long-right{
+    color: #3597FF;
+    padding-left: 175px;
+}
+
+.cards .gg-arrow-long-right{
+    color: #7487A3;
+    transition: color 0.3s ease-in-out;
+    transition: padding-left 0.5s ease-in-out;       
+}
 
 
 
