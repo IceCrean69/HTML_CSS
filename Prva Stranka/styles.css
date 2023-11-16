@@ -457,40 +457,47 @@ ul{
     
     
 }
-.cards{   
+.cards {
     border-radius: 8px;
     width: 300px;
-    height: 250px;
+    height: 200px;
     padding: 10px;
-    
+    display: flex;         
+    flex-direction: column;  
+    justify-content: space-between; 
+    gap: 10px;
+}
 
-}
-.cards p{
-    color: #7487A3;
-}
-.cards h5{
+.cards h5 {
     font-size: 18px;
+    margin-bottom: 0px; 
 }
+
+.cards p {
+    color: #7487A3;
+    margin-top: 0; 
+}
+
 .cards:hover {
     box-shadow: 0px 0px 28px -7px rgba(0, 0, 0, 0.2);
     cursor: pointer;
 }
-.cards i{
-    display: flex;
-    align-content: baseline;
+
+.cards i {
     font-size: 40px;
     color: #3597FF;
+    align-self: flex-start;
 }
 
-.cards:hover .gg-arrow-long-right{
+.cards:hover .gg-arrow-long-right {
     color: #3597FF;
     padding-left: 175px;
 }
 
-.cards .gg-arrow-long-right{
+.cards .gg-arrow-long-right {
     color: #7487A3;
     transition: color 0.3s ease-in-out;
-    transition: padding-left 0.5s ease-in-out;       
+    transition: padding-left 0.5s ease-in-out;
 }
 
 
