@@ -528,55 +528,71 @@ body{
     transition: padding-left 0.5s ease-in-out;
 }
 
-/* .slide{
-  display: flex;
-  flex-direction: row;
-}
 
-.slide-1-text{
-  position:absolute;
-  background-color: #A54FA2;
+.labmastri-slider01{
+    padding: 0% 0%;
+    min-height: 0px;
+    margin: 0 5% 0 20%;
+    box-sizing: border-box;  
+}
+.labmastri-justifycontent02{
+    justify-content: flex-end;
+    display: flex;
+    position: relative
+    
+}
+.labmastri-justifycontent02 figure{
+    height: 500px;
+    width: 85%;
+    border-radius: 19px;
+    display: block !important;
+    margin-bottom: 0;
+    overflow: hidden;
+    margin: 0 0 1rem;
+}
+.labmastri-justifycontent02 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: inline;
+    max-width: 100%;
+    vertical-align: middle;
+}
+.slide02-card{
+  background-color: #F9A94A;
   color: white;
-  max-width: 585px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  gap: 20px;
+  left: -154px;
   padding: 40px 32px;
-  left: -18px;
-  width: 65%;
-  height: 100%;
-  border: 1px solid rgba(0,0,0,0.125);
-  box-sizing: border-box;
-  bottom: 25%;
-}
-
-.slide-1-text h3{
-  font-size: 30px;
-  font-weight: bold;
-}
-.slide-1-text span{
-  font-size: 18px;
-  font-weight: bold;
-}
-.slide figure{
-  height: 500px;
-  width: 75%;
-  border-radius: 19px;
-  display: block !important;
-  overflow: hidden;
-}
-.slide img{
+  max-width: 503px;
+  max-height: 420px;
   width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: inline;
-  max-width: 100%;
-  vertical-align: middle;
+  height: 500px;
+  position: absolute;
+  bottom: 15%;
+  border-radius: 6px;
+
 }
- */
+.text-border p{
+    letter-spacing: 1px;
+    word-wrap: break-word;
+}
+.text-border span{
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 1.125rem;
+}
+.h3-title{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.75rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.blabla{
+    margin-bottom: 3rem;
+    margin-top: 0;
 
-
+}
 
 
 
