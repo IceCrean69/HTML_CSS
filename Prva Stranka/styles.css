@@ -594,6 +594,64 @@ body{
 
 }
 
+.container-studenske-projekty{
+    max-width: 1320px;
+    align-items: center;
+    margin: auto;
+    padding-top: 3rem;
+}
+.studenke-projekty{
+    display: flex;
+    flex-wrap: wrap;
+}
+.studenske-projekty-text h2{
+    text-align: center;
+    font-weight: 100;
+    font-size: 2.5rem;
+    padding-bottom: 20px;
+}
+.studenske-projekty-text span{
+    font-weight: bold;
+}
+
+
+.studenske-projekty-slide01{
+    display: flex;  
+}
+
+.studenske-projekty-text p{
+    text-align: center;
+    margin: auto;
+    max-width: 1200px;
+    color: #566b8d;
+    font-size: 1.2rem;
+}
+    
+.studenske-projekty-slide01-img figure{
+    height: 500px;
+    width: 85%;
+    border-radius: 19px;
+    display: block !important;
+    margin-bottom: 0;
+    overflow: hidden;
+    margin: 0 0 1rem;
+    
+}
+.studenske-projekty-slide01-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: inline;
+    max-width: 100%;
+    vertical-align: middle;
+    
+}
+.studenske-projekty-slide01-text{
+    max-width: 440px;
+    max-height: 500px;   
+}
+
+
 
 
 
