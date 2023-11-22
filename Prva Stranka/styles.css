@@ -616,7 +616,8 @@ body{
 
 
 .studenske-projekty-slide01{
-    display: flex;  
+    display: flex;
+    gap: 60px;  
 }
 
 .studenske-projekty-text p{
@@ -626,16 +627,27 @@ body{
     color: #566b8d;
     font-size: 1.2rem;
 }
+.studenske-projekty-slide01-img{
+    flex: 0 0 auto;
+    width: 50%;
+    padding-right: 1rem ;
+    padding-left: 1rem;
+    margin-top: 1rem;
     
+    
+}
 .studenske-projekty-slide01-img figure{
-    height: 500px;
+    height: 350px;
     width: 85%;
-    border-radius: 19px;
+    border-radius: 20px;
     display: block !important;
     margin-bottom: 0;
     overflow: hidden;
     margin: 0 0 1rem;
-    
+    position: relative;
+    max-width: fit-content;
+    align-items: center;
+    margin: auto;
 }
 .studenske-projekty-slide01-img img{
     width: 100%;
