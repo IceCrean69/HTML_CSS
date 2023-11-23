@@ -3,6 +3,15 @@ body{
     margin: 0px;
 }
 
+.underline-with-spacing::after {
+    content: '';
+    display: block;
+    height: 1px;               
+    background-color: #566B8D;          
+    margin-top: 3px;    
+    max-width: 75px;       
+}
+
 .discord-container{
     display: flex;
     max-width: 1320px;
@@ -594,21 +603,51 @@ body{
 
 }
 
+
+.studenske-projekty{
+    border-bottom: 1px solid #dee2e6;
+}
+
+.studenske-projekty-text{
+    margin-bottom: 150px;
+}
+.studenske-projekty-text h2{
+    text-align: center;
+    line-height: 10rem;
+    margin: auto;
+    font-weight: normal;
+    font-size: 40px;
+}
+    
+.studenske-projekty-text span{
+    font-weight: bold;
+}
+.studenske-projekty-nadpis {
+    font-size: 20px;       
+}
+.studenske-projekty-nadpis span{
+    font-weight: bold;
+}
+
+
 .container-studenske-projekty{
     max-width: 1320px;
     align-items: center;
     margin: auto;
     padding-top: 3rem;
 }
-.studenke-projekty{
+.studenske-projekty{
     display: flex;
     flex-wrap: wrap;
 }
-.studenske-projekty-text h2{
-    text-align: center;
+.studenske-projekty-slide01-text h3{
     font-weight: 100;
-    font-size: 2.5rem;
+    font-size: 31px;
     padding-bottom: 20px;
+}
+.studenske-projekty-slide01-text p{
+    font-size: 18px;
+    color: #566B8D;
 }
 .studenske-projekty-text span{
     font-weight: bold;
@@ -617,7 +656,7 @@ body{
 
 .studenske-projekty-slide01{
     display: flex;
-    gap: 60px;  
+    gap: 150px;  
 }
 
 .studenske-projekty-text p{
@@ -641,13 +680,11 @@ body{
     width: 85%;
     border-radius: 20px;
     display: block !important;
-    margin-bottom: 0;
     overflow: hidden;
-    margin: 0 0 1rem;
     position: relative;
     max-width: fit-content;
-    align-items: center;
     margin: auto;
+    margin-top: 20px;
 }
 .studenske-projekty-slide01-img img{
     width: 100%;
@@ -657,13 +694,141 @@ body{
     max-width: 100%;
     vertical-align: middle;
     
+    
 }
 .studenske-projekty-slide01-text{
     max-width: 440px;
     max-height: 500px;   
 }
 
+.studenske-projekty-hmove{
+    display: flex;
+    position:relative;
+    top: 0;        
+}
+.studenske-projekty-slide01{ 
+    width: 100%;
+    flex-shrink: 0; 
+}
+.studenske-projekty-hwrap{
+    overflow:hidden;
+    width: 1320px; 
+    height: 500px;
+}
+@keyframes studenske-projekty {
+    0%, 10%  { right: 0; }      /* Stay at initial position */
+    20%, 45% { right: 100%; }   /* Quick transition to 100%, then pause */
+    55%, 80% { right: 200%; }   /* Quick transition to 200%, then pause */
+    85%, 100% { right: 0; }     /* Quick transition back to initial position, then pause */
+}
 
+.studenske-projekty-hmove { 
+    animation: studenske-projekty 30s ease-in-out infinite; 
+}
+
+
+
+.vynimocnost{
+    max-width: 1320px;
+    margin: auto;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.vynimocnost-nadpis { 
+    text-align: center;
+    font-size: 24px;
+    padding-top: 150px;
+    padding-bottom: 60px;
+}
+
+.vynimocnost-nadpis h2{
+    font-weight: normal;
+}
+.vynimocnost-nadpis span{
+    font-weight: bold;
+}
+
+.container-vynimocnost{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px 35px;
+    
+}
+.vynimocnost-card{
+   max-width: 306px;
+}
+
+.vynimocnost-card h3{
+    font-size: 21px;
+    font-weight: bold;
+}
+.vynimocnost-card p{
+    font-size: 17px;
+    color: #566B8D;
+}
+
+.vynimocnost-card i{
+    background-color: #F1F7FD;
+    padding: 12px;
+    border-radius: 11px;
+}
+
+
+.spoznaj-nas{
+    max-width: 1320px;
+    margin: auto;
+}
+.spoznaj-nas-nadpis{
+    text-align: center;
+    font-size: 24px;
+    padding-top: 75px;
+    padding-bottom: 60px;
+}
+
+.container-cards-spoznaj-nas{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    overflow: hidden;
+    gap: 0 20px;
+}
+.spoznaj-nas-card-box{
+    width: 23%;
+    max-width: 100%;
+    margin-bottom: 40px;
+
+}
+.spoznaj-nas-card{
+  position: relative; 
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border-radius: .25rem;  
+}
+.spoznaj-nas-card img{
+    width: 100%;
+    border-radius: 8px;
+}
+
+.spoznaj-nas-card h6{
+    margin: 0;
+    margin-top: 5px;
+    color: #566B8D;
+    font-size: 13px;
+}
+.spoznaj-nas-card h5{
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-size: 19px;
+}
+.spoznaj-nas-card p{
+    margin: 0;
+    color: #566B8D;
+    
+}
 
 
 
