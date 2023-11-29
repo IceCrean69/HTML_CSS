@@ -10,7 +10,7 @@ body{
     position: absolute;
     width: 241px;
     right: 0;
-    bottom: 130px;
+    bottom: 14%;
     z-index: 0;
     overflow: hidden;
 }
@@ -21,7 +21,7 @@ body{
     position: absolute;
     width: 213px;
     right: 0;
-    bottom: -1700px;
+    bottom: -185%;
     z-index: 0;
     overflow: hidden;
 }
@@ -32,7 +32,7 @@ body{
     position: absolute;
     width: 241px;
     right: 0;
-    bottom: -3200px;
+    bottom: -340%;
     z-index: 0;
     overflow: hidden;
 }
@@ -45,9 +45,8 @@ body{
     width: 241px;
     transform: rotateY(180deg);
     left: 0;
-    top: 4705px;
+    top: 500%;
     overflow: hidden;
-    
 }
 .purple-circle img{
     width: 400px;
