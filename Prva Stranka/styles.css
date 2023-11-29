@@ -2,6 +2,64 @@ body{
     font-family: SF Pro display, sans-serif;
     margin: 0px;
 }
+.body-images{
+    position: absolute;
+    width: 20%;
+}
+.blue-circle {
+    position: absolute;
+    width: 241px;
+    right: 0;
+    bottom: 130px;
+    z-index: 0;
+    overflow: hidden;
+}
+.blue-circle img{
+    width: 453px;
+}
+.green-circle {
+    position: absolute;
+    width: 213px;
+    right: 0;
+    bottom: -1700px;
+    z-index: 0;
+    overflow: hidden;
+}
+.green-circle img{
+    width: 436px;
+}
+.blue-circle2 {
+    position: absolute;
+    width: 241px;
+    right: 0;
+    bottom: -3200px;
+    z-index: 0;
+    overflow: hidden;
+}
+.blue-circle2 img{
+    width: 453px;
+}
+
+.purple-circle {
+    position: absolute;
+    width: 241px;
+    transform: rotateY(180deg);
+    left: 0;
+    top: 4705px;
+    overflow: hidden;
+    
+}
+.purple-circle img{
+    width: 400px;
+}
+.yellow-square {
+    position: absolute;
+    left: 1630px;
+    top: 9600px;
+    width: 241px;
+    overflow: hidden;
+
+}
 
 .underline-with-spacing::after {
     content: '';
@@ -99,13 +157,21 @@ body{
 }
 .main-page {
     color: white !important;
+    display: flex;
+    gap:  0 200px;
     width: 1320px;
     height: fit;
     margin: auto !important;
     font-size: 25px;
     font-weight: 0;
 }
-
+.main-img{
+    width: 40%;
+    margin-bottom: -6px;
+}
+.main-img img{
+    width: 100%;
+}
 .main-text{
     padding: 48px 0px 48px 0px;
     z-index: 1;
@@ -361,17 +427,17 @@ body{
     color: #3597FF;
 }
 
-.nazor{
+.another-nazor{
     padding-top: 150px;
     background-color: #F3F9FF;
     display: flex;
     flex-direction: column;
 }
-.nazor span{
+.another-nazor span{
     font-weight: 1000;
     
 }
-.nazor h3{
+.another-nazor h3{
     text-align: left;
     max-width: 395px;
     max-height: 90px;
@@ -382,12 +448,19 @@ body{
 }
 .container-nazor{
     box-sizing: border-box;
-    max-width: 500px;
-    max-height: 800px;
-    margin-left: 300px;
+    max-width: 1320px;
+   
     text-align: left;
 }
+.nazor{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #F3F9FF;
+}
+.nazor img{ 
+    width: 35%;
 
+}
 .hmove{
     display: flex;
     position:relative;
