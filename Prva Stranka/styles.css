@@ -397,7 +397,6 @@ body{
     justify-content: space-evenly;
     margin: auto;
     max-width:1420px ;
-    
 }
 .spse-text, .spsit-text{
     display: flex;
@@ -424,6 +423,10 @@ body{
     text-decoration: none;
     font-weight: 1000;
     color: #3597FF;
+    transition: color 0.2s ease-in-out;
+}
+.spse-text a:hover, .spsit-text a:hover{
+    color: #0A81FF;
 }
 
 .another-nazor{
@@ -1060,6 +1063,9 @@ body{
     padding: 20px 50px;
     border-radius: 12px;
     
+}
+.modern-school-btn a:hover{
+    background-color: #0A81FF;
 }
 
 
